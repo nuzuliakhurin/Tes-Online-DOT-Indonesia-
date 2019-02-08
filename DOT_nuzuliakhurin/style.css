@@ -1,0 +1,98 @@
+body {
+	background-color: #ccc;
+}
+
+.header {
+	padding: 60px;
+	text-align: center;
+	color: white;
+	font-size: 30px;
+}
+.atas{
+	background-image: url(image/bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	position: relative;
+	z-index: -1;
+}
+
+.tengah{
+	position: relative;
+	z-index: -4;
+	height: 100px;
+}
+.text{
+	text-align: center;
+	padding: 20px;
+}
+.bawah2{
+	text-align: center;
+}
+
+.ml-auto {
+	left: auto !important;
+	right: 0px;
+}
+
+.bg-light{
+	background-color: transparent;	
+}
+
+.carousel-control-prev-icon {
+	z-index: 10;
+	margin-left: -40px;
+	position: absolute;
+	border-radius: 50px;
+	height: 50px;
+	width: 50px;
+	background-color: red;
+	background-image: url(data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' f…3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E);
+	padding: 20px;
+	left: 0;
+}
+
+.carousel-control-next-icon {
+	z-index: 10;
+	margin-left: 150px;
+	position: absolute;
+	border-radius: 50px;
+	height: 50px;
+	width: 50px;
+	background-color: red;
+	background-image: url(data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' f…3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E);
+	padding: 20px;
+	left: 0;
+}
+
+/*count*/
+.count{
+	background-size: cover;
+	height: 50vh;
+
+}
+/*GET TOUCH*/
+.get-touch{
+	background: url('image/bgbawah1.png');
+	background-size: cover;
+	padding: 15vh 0 25vh 0;
+	background-color: red;
+	height: 50vh;
+}
+.get-touch h1{
+	color: white;
+}
+
+/*footer*/
+.footer{
+	background: url('image/bgbawah2.png');
+	background-size: cover;
+	padding: 15vh 0 25vh 0;
+	background-color: red;
+	text-align: center;
+	height: 50vh;
+}
+
+.footer .ferrero{
+	color: white;
+}
